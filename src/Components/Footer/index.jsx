@@ -1,13 +1,16 @@
-import React from 'react';
+import React from "react";
 
 class Footer extends React.Component {
-  render() {
-    return (
-      <footer>
-        <div className="copyright">Copyright &copy; 2019 - The Bastion Bot Project</div>
-      </footer>
-    );
-  }
+    render() {
+        return (
+            <footer>
+                <div className="copyright">
+                    Copyright &copy; {new Date().getFullYear()} - The Bastion
+                    Bot Project - Modified by Visual Team
+                </div>
+            </footer>
+        );
+    }
 }
 
 export default Footer;
